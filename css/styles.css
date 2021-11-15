@@ -1,0 +1,43 @@
+body {
+  background-color: #FBF46D;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #7E370C;
+  border-width: 7px;
+  width: 80%;
+}
+
+a {
+  font-family: "Trebuchet MS";
+  color: #852747;
+  font-variant: small-caps;
+}
+
+.mainphoto {
+  height: 250px;
+  width: 250px;
+  border-style: double;
+  border-radius: 200px;
+  border-width: 3px;
+}
+
+#first {
+  color: red;
+}
+
+.text {
+  color: blue;
+}
+
+h2 {
+  color: red;
+}
+.ul1 {
+  font-family: Times;
+}
+.ul2 {
+  font-family: Arial;
+}
