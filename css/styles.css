@@ -1,32 +1,68 @@
 body {
-  background-color: #FBF46D;
+  background-color: #FFD07F;
+  align-content: center;
+  align-items: center;
+  align-self: center;
 }
-
+.parent{
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+.child{
+  background-color: black;
+  display: inline-block;
+  opacity: 0.5;
+  border-radius: 5px;
+  height: 25px;
+  width: 20%;
+  text-align: center;
+  margin: 10px;
+}
+.header{
+  background-color: #483434;
+  opacity: 0.9;
+  width: 100%;
+  height: 30px;
+  margin-top: 0;
+  color: white;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: lighter;
+  border-radius: 5px;
+}
+.photo{
+  width: 100%;
+  margin: 0;
+}
+.bio{
+  width: 100%;
+  margin: 0;
+}
 hr {
   border-style: none;
-  border-top-style: dotted;
+  border-top-style: dashed;
   border-color: #7E370C;
   border-width: 7px;
+  border-radius: 3px;
   width: 80%;
 }
-
 a {
   font-family: "Trebuchet MS";
   color: #852747;
   font-variant: small-caps;
 }
-
 .mainphoto {
   height: 250px;
   width: 250px;
   border-style: double;
-  border-radius: 200px;
+  border-radius: 50px;
   border-width: 3px;
+
 }
 
-#first {
-  color: red;
-}
 
 .text {
   color: blue;
