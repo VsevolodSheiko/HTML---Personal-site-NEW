@@ -6,14 +6,8 @@
     div{
       font-family: Arial;
     }
-    .start{
-      display: flex;
-
-    }
-    .end{
-      position: absolute;
-      bottom: 0px;
-      right: 0px;
+    .pos{
+      display: inline-block;
     }
     .A{
       height: 150px;
@@ -25,6 +19,7 @@
       border-color: #D0D0FF;
       cursor: pointer;
       padding: 10px;
+      position: fixed;
     }
     .A:hover{
       background: yellow;
@@ -40,6 +35,8 @@
       border-color: #D0D0FF;
       cursor: pointer;
       padding: 10px;
+      position: fixed;
+      left: 138px;
     }
     .B:hover{
       background: yellow;
@@ -55,6 +52,8 @@
       border-color: #D0D0FF;
       cursor: pointer;
       padding: 10px;
+      position: fixed;
+      left: 268px;
     }
     .C:hover{
       background: yellow;
@@ -70,6 +69,8 @@
       border-color: #D0D0FF;
       cursor: pointer;
       padding: 10px;
+      position: fixed;
+      left: 398px;
     }
     .D:hover{
       background: yellow;
@@ -85,6 +86,8 @@
       border-color: #D0D0FF;
       cursor: pointer;
       padding: 10px;
+      position: fixed;
+      left: 528px;
     }
     .E:hover{
       background: yellow;
@@ -99,6 +102,9 @@
       border-color: #D0D0FF;
       cursor: pointer;
       padding: 10px;
+      position: fixed;
+      bottom: 0px;
+      right: 0px;
     }
     .F:hover{
       background: yellow;
@@ -108,27 +114,24 @@
 </head>
 <body>
   <div class="start">
-    <div class="A">
+    <div class="A pos">
       <h1>A</h1>
     </div>
-    <div class="B">
+    <div class="B pos">
       <h1>B</h1>
     </div>
-    <div class="C">
+    <div class="C pos">
       <h1>C</h1>
     </div>
-    <div class="D">
+    <div class="D pos">
       <h1>D</h1>
     </div>
-    <div class="E">
+    <div class="E pos">
       <h1>E</h1>
     </div>
   </div>
-  <div class="middle"></div>
-  <div class="end">
-    <div class="F">
+    <div class="F pos">
       <h1>F</h1>
     </div>
-  </div>
 </body>
 </html>
